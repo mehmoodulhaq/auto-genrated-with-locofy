@@ -1,0 +1,118 @@
+.frameChild {
+  position: relative;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  width: 18.5rem;
+  height: 17.81rem;
+  object-fit: cover;
+}
+.fullTime,
+.supervisor {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 1.25rem;
+}
+.supervisor {
+  font-size: var(--font-size-5xl);
+  line-height: 2.13rem;
+  font-weight: 600;
+  color: var(--base-black);
+}
+.fullTimeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.butHappyTo {
+  position: relative;
+  font-size: var(--text-s-regular-size);
+  letter-spacing: -0.1px;
+  line-height: 1.25rem;
+  color: var(--neutral-950);
+  display: inline-block;
+  width: 16.5rem;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.placeholderIcon {
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text {
+  position: relative;
+  line-height: 1.38rem;
+  font-weight: 600;
+}
+.button {
+  border-radius: var(--br-81xl);
+  background-color: var(--purple-secondary-600);
+  box-shadow: var(--shadow-xsm);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-lg);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  text-align: center;
+  font-size: var(--text-button-semibold-large-size);
+  color: var(--base-white);
+}
+.frameGroup {
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--base-white);
+  border: 1px solid var(--neutral-700);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.rectangleParent {
+  flex-direction: column;
+  align-items: center;
+}
+.careerInner,
+.frameParent,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.careerInner {
+  background-color: var(--base-white);
+  width: 94.5rem;
+  flex-direction: column;
+  padding: var(--padding-45xl) var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--primary-900);
+  font-family: var(--text-l-semibold);
+}
+@media screen and (max-width: 960px) {
+  .careerInner {
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  .careerInner {
+    display: none;
+  }
+}

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --text-l-semibold: Inter;
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --font-size-smi: 0.81rem;
+  --text-s-regular-size: 0.88rem;
+  --text-l-semibold-size: 1rem;
+  --text-button-semibold-large-size: 0.94rem;
+  --headline-m-desktop-semibold-size: 2rem;
+  --font-size-3xl: 1.38rem;
+  --font-size-9xl: 1.75rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-xs: 0.75rem;
+  --text-xl-regular-size: 1.13rem;
+  --display-m-semibold-size: 3.25rem;
+
+  /* Colors */
+  --base-white: #fff;
+  --neutral-950: #6b7b8f;
+  --gray-50: #5f6d7e;
+  --gray-700: #272d37;
+  --neutral-700: #dae0e6;
+  --purple-secondary-600: #574efa;
+  --base-black: #000;
+  --primary-200: #b1ccfb;
+  --color-whitesmoke: #f9f9f9;
+  --primary-600: #437ef7;
+  --primary-700: #3971e7;
+  --primary-900: #2b63d9;
+  --color-mediumslateblue: #7169ff;
+  --system-background-light-secondary: #f2f2f7;
+  --primary-400: #648ef7;
+
+  /* Gaps */
+  --gap-12xl: 1.94rem;
+  --gap-11xl: 1.88rem;
+  --gap-5xl: 1.5rem;
+  --gap-xs: 0.75rem;
+  --gap-9xs: 0.25rem;
+  --gap-3xs: 0.63rem;
+  --gap-45xl: 4rem;
+  --gap-61xl: 5rem;
+  --gap-7xs: 0.38rem;
+  --gap-5xs: 0.5rem;
+  --gap-base: 1rem;
+  --gap-13xl: 2rem;
+  --gap-mini: 0.94rem;
+  --gap-xl: 1.25rem;
+  --gap-182xl: 12.56rem;
+
+  /* Paddings */
+  --padding-xl: 1.25rem;
+  --padding-31xl: 3.13rem;
+  --padding-5xs: 0.5rem;
+  --padding-3xs: 0.63rem;
+  --padding-21xl: 2.5rem;
+  --padding-105xl: 7.75rem;
+  --padding-45xl: 4rem;
+  --padding-13xl: 2rem;
+  --padding-xs: 0.75rem;
+  --padding-lg: 1.13rem;
+  --padding-base: 1rem;
+  --padding-5xl: 1.5rem;
+  --padding-93xl: 7rem;
+  --padding-2xl: 1.31rem;
+
+  /* border radiuses */
+  --br-8xs: 5px;
+  --br-mini: 15px;
+  --br-5xs: 8px;
+  --br-81xl: 100px;
+  --br-11xl: 30px;
+  --br-31xl: 50px;
+  --br-base: 16px;
+
+  /* Effects */
+  --shadow-xsm: 0px 1px 2px rgba(16, 24, 40, 0.04);
+}

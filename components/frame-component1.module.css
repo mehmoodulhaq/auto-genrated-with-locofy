@@ -1,0 +1,143 @@
+.frameChild {
+  position: relative;
+  border-radius: var(--br-base);
+  width: 59.5rem;
+  height: 29.56rem;
+  object-fit: cover;
+}
+.ofTheIndustry {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 1.25rem;
+  font-weight: 600;
+  display: none;
+}
+.headline {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 2.5rem;
+}
+.headlineSupportingText,
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.headlineSupportingText {
+  align-self: stretch;
+  font-size: var(--headline-m-desktop-semibold-size);
+  color: var(--gray-700);
+}
+.textContainer {
+  width: 50rem;
+  gap: var(--gap-5xs);
+}
+.blockHeader {
+  width: 59.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--text-s-regular-size);
+  color: var(--primary-600);
+}
+.postTravel {
+  margin: 0;
+}
+.postTravelContainer {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+.subtitle {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 1.5rem;
+  display: inline-block;
+  width: 59.5rem;
+}
+.blockHeaderParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--text-l-semibold-size);
+  color: var(--gray-50);
+}
+.headline1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+.headlineSupportingText1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--font-size-3xl);
+  color: var(--gray-700);
+}
+.blockHeader1 {
+  width: 59.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.subtitle1 {
+  position: relative;
+  font-size: var(--text-l-semibold-size);
+  letter-spacing: -0.1px;
+  line-height: 1.5rem;
+  color: var(--gray-50);
+  display: inline-block;
+  width: 59.5rem;
+}
+.businessDevelopmentTeam {
+  margin-bottom: false;
+}
+.businessDevelopmentTeamCoac {
+  margin: 0;
+  padding-left: var(--padding-2xl);
+}
+.subtitle3 {
+  position: relative;
+  font-size: var(--font-inherit);
+  letter-spacing: -0.1px;
+  line-height: 1.5rem;
+  font-family: var(--font-inherit);
+  color: var(--gray-50);
+  display: inline-block;
+  width: 59.5rem;
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.frameParent,
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-13xl);
+}
+.frameWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--text-s-regular-size);
+  color: var(--primary-600);
+  font-family: var(--text-l-semibold);
+}

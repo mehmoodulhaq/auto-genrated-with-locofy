@@ -1,0 +1,175 @@
+.ofTheIndustry {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 1.25rem;
+  font-weight: 600;
+  display: none;
+}
+.headline {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 2.5rem;
+}
+.subtitle {
+  position: relative;
+  font-size: var(--text-l-semibold-size);
+  letter-spacing: -0.1px;
+  line-height: 1.5rem;
+  color: var(--gray-50);
+  display: inline-block;
+  width: 78rem;
+}
+.headlineSupportingText,
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.headlineSupportingText {
+  align-self: stretch;
+  gap: var(--gap-base);
+  font-size: var(--headline-m-desktop-semibold-size);
+  color: var(--gray-700);
+}
+.textContainer {
+  width: 50rem;
+  gap: var(--gap-5xs);
+}
+.blockHeader {
+  width: 80rem;
+  align-items: center;
+}
+.blockHeader,
+.inputBox,
+.inputBoxParent,
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.inputBox {
+  border: 1px solid var(--neutral-700);
+  font-family: var(--text-l-semibold);
+  font-size: var(--text-button-semibold-large-size);
+  background-color: var(--base-white);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  width: 39.5rem;
+  height: 2.88rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+}
+.inputBoxParent,
+.text {
+  align-items: flex-start;
+}
+.inputBoxParent {
+  gap: var(--gap-base);
+}
+.text {
+  border: 0;
+  background-color: transparent;
+  font-family: var(--text-l-semibold);
+  font-size: var(--text-button-semibold-large-size);
+  flex: 1;
+}
+.informationIcon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: none;
+}
+.inputBox6 {
+  border-radius: var(--br-5xs);
+  background-color: var(--base-white);
+  border: 1px solid var(--neutral-700);
+  box-sizing: border-box;
+  width: 80rem;
+  height: 19.75rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.frameGroup,
+.inputBox6,
+.inputBoxWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.placeholderIcon {
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text1 {
+  position: relative;
+  line-height: 1.38rem;
+  font-weight: 600;
+}
+.button {
+  border-radius: var(--br-81xl);
+  background-color: var(--purple-secondary-600);
+  box-shadow: var(--shadow-xsm);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-lg);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.blockHeaderParent,
+.careerDetailsInner,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--text-button-semibold-large-size);
+  color: var(--base-white);
+}
+.blockHeaderParent,
+.careerDetailsInner {
+  align-items: center;
+}
+.blockHeaderParent {
+  gap: var(--gap-45xl);
+}
+.careerDetailsInner {
+  background-color: var(--color-whitesmoke);
+  width: 94.5rem;
+  padding: var(--padding-45xl) 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--text-s-regular-size);
+  color: var(--primary-600);
+  font-family: var(--text-l-semibold);
+}
+@media screen and (max-width: 960px) {
+  .careerDetailsInner {
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  .careerDetailsInner {
+    display: none;
+  }
+}

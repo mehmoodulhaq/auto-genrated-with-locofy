@@ -1,0 +1,63 @@
+.buildYour {
+  margin: 0;
+}
+.headline,
+.inThisStep {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 2.5rem;
+}
+.inThisStep {
+  font-size: var(--text-xl-regular-size);
+  letter-spacing: -0.1px;
+  line-height: 1.63rem;
+  display: inline-block;
+  width: 20rem;
+  height: 8.06rem;
+  flex-shrink: 0;
+}
+.headlineParent,
+.typesAndFilters {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.headlineParent {
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.typesAndFilters {
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.careerDetailsInner,
+.typesAndFiltersWrapper {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.typesAndFiltersWrapper {
+  background-color: var(--color-whitesmoke);
+  width: 26.25rem;
+  display: flex;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+}
+.careerDetailsInner {
+  display: none;
+  text-align: left;
+  font-size: var(--headline-m-desktop-semibold-size);
+  color: var(--gray-700);
+  font-family: var(--text-l-semibold);
+}
+@media screen and (max-width: 960px) {
+  .careerDetailsInner {
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  .careerDetailsInner {
+    display: flex;
+  }
+}
